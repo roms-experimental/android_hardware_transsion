@@ -1,0 +1,6 @@
+package vendor.rafi.touch@1.0;
+
+interface IFingerprintOnDisplay {
+    isEnabled() generates (bool rc);
+    setEnabled(bool enabled) generates (bool rc);
+};

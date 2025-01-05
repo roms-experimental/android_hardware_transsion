@@ -17,6 +17,9 @@
 # Fingerprint (Goodix)
 /data/vendor/goodix/gf_data(/.*)?                                                                  u:object_r:vendor_gf_data_file:s0
 
+# Fingerprint (Rafi)
+/(vendor|system/vendor)/bin/hw/vendor\.rafi\.touch@1\.0-service\.fod                               u:object_r:hal_lineage_touch_default_exec:s0
+
 # Lights
 /(vendor|system/vendor)/bin/hw/android\.hardware\.lights-service\.transsion                        u:object_r:hal_light_default_exec:s0
 

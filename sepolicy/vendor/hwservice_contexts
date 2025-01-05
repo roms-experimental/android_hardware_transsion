@@ -7,6 +7,9 @@ vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonExt     u
 vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonHbd     u:object_r:goodix_fingerprint_service:s0
 vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonFido    u:object_r:goodix_fingerprint_service:s0
 
+# Fingerprint (Rafi)
+vendor.rafi.touch::IFingerprintOnDisplay                                       u:object_r:hal_lineage_touch_hwservice:s0
+
 # TNE
 vendor.transsion.hardware.tne.tneengine::ITne                                  u:object_r:hal_tnev_hwservice:s0
 
