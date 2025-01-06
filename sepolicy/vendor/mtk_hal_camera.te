@@ -5,4 +5,5 @@ allow mtk_hal_camera { transsion_camera_data_file vendor_watermark_data_file }:f
 
 binder_call(mtk_hal_camera, trancamserver)
 
+get_prop(mtk_hal_camera, vendor_persist_camera_prop)
 get_prop(mtk_hal_camera, vendor_transsion_camera_watermark_support_prop)
