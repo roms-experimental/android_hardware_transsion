@@ -1,4 +1,6 @@
 allow hal_fingerprint_default fpsensor_fp_device:chr_file rw_file_perms;
+allow hal_fingerprint_default input_device:dir { read open search };
+allow hal_fingerprint_default input_device:chr_file rw_file_perms;
 allow hal_fingerprint_default mnt_vendor_file:dir { read open search };
 allow hal_fingerprint_default mnt_vendor_file:file { read write getattr open };
 allow hal_fingerprint_default persist_data_file:dir { read write create open add_name search };
