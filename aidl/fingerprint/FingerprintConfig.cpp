@@ -13,7 +13,7 @@
 
 #include <fingerprint.sysprop.h>
 
-using namespace ::android::fingerprint::xiaomi;
+using namespace ::android::fingerprint::transsion;
 
 namespace aidl::android::hardware::biometrics::fingerprint {
 

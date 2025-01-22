@@ -10,7 +10,7 @@
 #include "Fingerprint.h"
 #include "util/Util.h"
 
-using namespace ::android::fingerprint::xiaomi;
+using namespace ::android::fingerprint::transsion;
 
 namespace aidl::android::hardware::biometrics::fingerprint {
 
