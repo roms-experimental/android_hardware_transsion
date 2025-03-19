@@ -23,12 +23,12 @@ transsion_touch_hal_cc_defaults {
 
 cc_binary {
     name: "vendor.lineage.touch@1.0-service.transsion",
-    vintf_fragments: ["vendor.lineage.touch@1.0-service.transsion.xml"],
-    init_rc: ["vendor.lineage.touch@1.0-service.transsion.rc"],
     defaults: [
         "hidl_defaults",
         "transsion_touch_hal_defaults",
     ],
+    vintf_fragments: ["vendor.lineage.touch@1.0-service.transsion.xml"],
+    init_rc: ["vendor.lineage.touch@1.0-service.transsion.rc"],
     relative_install_path: "hw",
     proprietary: true,
     srcs: [
